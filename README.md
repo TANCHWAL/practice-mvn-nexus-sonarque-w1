@@ -45,3 +45,10 @@ mvn sonar:sonar \
   -Dsonar.projectKey=JavaProject \
   -Dsonar.host.url=http://54.75.213.24:9000 \
   -Dsonar.login=d1f339bf5d8e445f914c3f25830635369ad36de0
+
+
+
+  mvn clean sonar:sonar deploy \
+  -Dsonar.projectKey=JavaProject \
+  -Dsonar.host.url=http://54.75.213.24:9000 \
+  -Dsonar.login=d1f339bf5d8e445f914c3f25830635369ad36de0
